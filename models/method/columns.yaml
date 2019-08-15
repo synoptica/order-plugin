@@ -1,0 +1,22 @@
+columns:
+    id:
+        label: id
+        type: number
+    name:
+        label: Name
+        type: text
+    descr:
+        label: Description
+        type: text
+    code:
+        label: Code
+        type: text
+    days:
+        label: Days
+        type: number
+    is_endmonth:
+        label: 'End Month'
+        type: switch
+    is_enabled:
+        label: Enabled
+        type: switch

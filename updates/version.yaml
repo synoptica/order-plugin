@@ -1,0 +1,25 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table orders'
+    - builder_table_create_orders.php
+1.0.3:
+    - 'Created table orders_payments and methods'
+    - builder_table_create_orders_payments.php
+    - seeds/OrdersPaymentsTableSeeder.php
+    - builder_table_create_orders_methods.php
+    - seeds/OrdersMethodsTableSeeder.php
+1.0.4:
+    - 'Created table orders_statuses'
+    - builder_table_create_orders_statuses.php
+    - seeds/OrdersStatusesTableSeeder.php
+1.0.5:
+    - 'Created table orders_types'
+    - builder_table_create_orders_types.php
+    - seeds/OrdersTypesTableSeeder.php
+1.0.6:
+    - 'Created table orders_translines'
+    - builder_table_create_orders_translines.php
+1.0.7:
+    - 'Created table orders_transactions'
+    - builder_table_create_orders_transactions.php

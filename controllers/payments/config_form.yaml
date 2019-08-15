@@ -1,0 +1,10 @@
+name: Payments
+form: $/synoptica/order/models/payment/fields.yaml
+modelClass: Synoptica\Order\Models\Payment
+defaultRedirect: synoptica/order/payments
+create:
+    redirect: 'synoptica/order/payments/update/:id'
+    redirectClose: synoptica/order/payments
+update:
+    redirect: synoptica/order/payments
+    redirectClose: synoptica/order/payments

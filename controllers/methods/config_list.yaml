@@ -1,0 +1,12 @@
+list: $/synoptica/order/models/method/columns.yaml
+modelClass: Synoptica\Order\Models\Method
+title: Methods
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'synoptica/order/methods/update/:id'

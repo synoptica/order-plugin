@@ -1,0 +1,32 @@
+plugin:
+    name: 'synoptica.order::lang.plugin.name'
+    description: 'synoptica.order::lang.plugin.description'
+    author: Synoptica
+    icon: oc-icon-shopping-cart
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Orders
+        url: synoptica/order/orders
+        icon: icon-table
+        sideMenu:
+            side-menu-item:
+                label: Orders
+                url: synoptica/order/orders
+                icon: icon-table
+            side-menu-item5:
+                label: Invoices
+                url: synoptica/order/invoices
+                icon: icon-file
+            side-menu-item2:
+                label: Status
+                url: synoptica/order/statuses
+                icon: icon-university
+            side-menu-item3:
+                label: Payments
+                url: synoptica/order/payments
+                icon: icon-money
+            side-menu-item4:
+                label: Methods
+                url: synoptica/order/methods
+                icon: icon-shopping-cart

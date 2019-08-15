@@ -1,0 +1,7 @@
+name: Orders
+form: $/synoptica/order/models/order/fields_setbilled.yaml
+modelClass: Synoptica\Order\Models\Order
+defaultRedirect: synoptica/order/orders
+setbilled:
+    redirect: synoptica/order/orders
+    redirectClose: synoptica/order/orders

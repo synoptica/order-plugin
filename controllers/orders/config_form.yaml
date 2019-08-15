@@ -1,0 +1,10 @@
+name: Orders
+form: $/synoptica/order/models/order/fields.yaml
+modelClass: Synoptica\Order\Models\Order
+defaultRedirect: synoptica/order/orders
+create:
+    redirect: 'synoptica/order/orders/update/:id'
+    redirectClose: synoptica/order/orders
+update:
+    redirect: synoptica/order/orders
+    redirectClose: synoptica/order/orders

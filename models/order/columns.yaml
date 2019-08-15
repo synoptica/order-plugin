@@ -1,0 +1,59 @@
+columns:
+    id:
+        label: ID
+        type: number
+        searchable: true
+        sortable: true
+    status_icon:
+        label: ''
+        type: partial
+        relation: status
+        select: code
+        clickable: false
+        sortable: false
+    customer:
+        label: Customer
+        type: partial
+        searchable: false
+        clickable: false
+        sortable: false
+    translines:
+        label: Translines
+        type: text
+        searchable: false
+        select: 'CONCAT(descr,''('',quantity,'')'')'
+        relation: translines
+        sortable: false
+    total_money:
+        label: Total
+        type: text
+        sortable: false
+    created_at:
+        label: Created
+        type: date
+        sortable: true
+    billed_at:
+        label: Billed
+        type: date
+        sortable: true
+    invoice:
+        label: Invoice
+        type: partial
+        searchable: false
+        relation: invoice
+        clickable: false
+        sortable: false
+    payment:
+        label: ''
+        type: partial
+        select: icon
+        relation: payment
+        span: right
+        sortable: false
+    status:
+        label: ''
+        type: partial
+        relation: status
+        select: code
+        clickable: false
+        sortable: false

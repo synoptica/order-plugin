@@ -1,0 +1,37 @@
+        <a 
+            class="btn btn-sm btn-success"
+            data-control="popup"
+            data-ajax="/synapsi/synoptica/order/orders/setbilled/<?= $record->id ?>"
+            href="javascript:;"
+            
+            <?php  if (isset($record->status) 
+                && in_array($record->status, [
+                    'BILLED',
+                    'BILLED_PENDING_NOTIFY',
+                    'DONE',
+                    'REFUNDED'
+                ])): ?>
+                disabled="disabled"
+            <?php
+                endif;
+            ?>
+
+
+        ><i class="icon-shopping-cart"></i></a>&nbsp;<a 
+            class="btn btn-sm btn-warning"
+            data-request="onRefund"
+            href="javascript:;"
+            
+            <?php  if (isset($record->status) 
+                && !in_array($record->status, [
+                    'BILLED',
+                    'BILLED_PENDING_NOTIFY',
+                    'DONE'
+                ])): ?>
+                disabled="disabled"
+            <?php
+                endif;
+            ?>
+
+
+        ><i class="icon-backward"></i></a>

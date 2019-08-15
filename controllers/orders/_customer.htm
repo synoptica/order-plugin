@@ -1,0 +1,7 @@
+<a href="/synapsi/synoptica/profile/profiles/update/<?php echo $record->customer_id ?>"><?php 
+    if ($record->customer_id && $record->customer->getCompleteName()){
+        echo $record->customer->getCompleteName();
+    } elseif ($record->customer_id) {
+        echo "[{$record->customer_id}]";
+    }
+?></a>

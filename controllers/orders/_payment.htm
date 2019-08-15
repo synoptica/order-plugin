@@ -1,0 +1,17 @@
+<?php 
+    if ($record->payment_id):
+?>
+        <i class="<?php 
+            if ($record->payment){ 
+                echo $record->payment; 
+            } else {
+                echo "fas fa-check-square";
+            } ?> icon-2x"></i> 
+
+<?php
+    else: 
+        ?>
+        <i class="fas fa-square icon-2x"></i>
+        <?php
+    endif;
+?>

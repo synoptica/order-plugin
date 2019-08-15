@@ -1,0 +1,16 @@
+columns:
+    id:
+        label: ID
+        type: number
+    name:
+        label: 'Status Name'
+        type: text
+    code:
+        label: Code
+        type: text
+    descr:
+        label: Description
+        type: text
+    document_type:
+        label: document_type
+        type: text

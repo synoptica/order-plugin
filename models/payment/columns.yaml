@@ -1,0 +1,19 @@
+columns:
+    id:
+        label: id
+        type: number
+    name:
+        label: Name
+        type: text
+    descr:
+        label: Description
+        type: text
+    code:
+        label: Code
+        type: text
+    mp:
+        label: 'MP Code'
+        type: text
+    is_enabled:
+        label: Enabled
+        type: switch

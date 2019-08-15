@@ -1,0 +1,18 @@
+fields:
+    name:
+        label: 'Status Name'
+        span: auto
+        type: text
+    code:
+        label: 'Status Code'
+        span: auto
+        type: text
+    document_type:
+        label: 'Document Type'
+        span: auto
+        type: text
+    descr:
+        label: Description
+        size: small
+        span: auto
+        type: textarea

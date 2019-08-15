@@ -1,0 +1,10 @@
+name: Methods
+form: $/synoptica/order/models/method/fields.yaml
+modelClass: Synoptica\Order\Models\Method
+defaultRedirect: synoptica/order/methods
+create:
+    redirect: 'synoptica/order/methods/update/:id'
+    redirectClose: synoptica/order/methods
+update:
+    redirect: synoptica/order/methods
+    redirectClose: synoptica/order/methods

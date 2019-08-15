@@ -1,0 +1,10 @@
+name: Statuses
+form: $/synoptica/order/models/status/fields.yaml
+modelClass: Synoptica\Order\Models\Status
+defaultRedirect: synoptica/order/statuses
+create:
+    redirect: 'synoptica/order/statuses/update/:id'
+    redirectClose: synoptica/order/statuses
+update:
+    redirect: synoptica/order/statuses
+    redirectClose: synoptica/order/statuses

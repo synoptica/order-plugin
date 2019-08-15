@@ -1,0 +1,14 @@
+list: $/synoptica/order/models/order/columns.yaml
+modelClass: Synoptica\Order\Models\Order
+title: Orders
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+        searchOnEnter: true
+recordUrl: 'synoptica/order/orders/update/:id'
+        

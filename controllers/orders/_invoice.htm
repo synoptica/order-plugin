@@ -1,0 +1,9 @@
+<?php 
+    if ($record->invoice):
+?>
+        <a 
+            href="/synapsi/synoptica/order/invoices/update/<?php echo $record->invoice->id ?>" 
+        ><?php echo $record->invoice->number; ?></a>
+<?php
+    endif;
+?>
