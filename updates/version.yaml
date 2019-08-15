@@ -23,3 +23,6 @@
 1.0.7:
     - 'Created table orders_transactions'
     - builder_table_create_orders_transactions.php
+1.0.8:
+    - 'Created table orders_invoices'
+    - builder_table_create_orders_invoices.php

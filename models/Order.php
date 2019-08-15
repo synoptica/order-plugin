@@ -43,6 +43,10 @@ class Order extends Model
         'method' => 'Synoptica\Order\Models\Method',
     ];
 
+    public $hasOne = [
+        'invoice' => 'Synoptica\Order\Models\Invoice'
+    ];
+
     public $hasMany = [
         'translines' => 'Synoptica\Order\Models\Transline',
     ];

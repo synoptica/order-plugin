@@ -1,0 +1,10 @@
+name: Invoices
+form: $/synoptica/order/models/invoice/fields.yaml
+modelClass: Synoptica\Order\Models\Invoice
+defaultRedirect: synoptica/order/invoices
+create:
+    redirect: 'synoptica/order/invoices/update/:id'
+    redirectClose: synoptica/order/invoices
+update:
+    redirect: synoptica/order/invoices
+    redirectClose: synoptica/order/invoices

@@ -1,0 +1,34 @@
+columns:
+    id:
+        label: id
+        type: number
+    number:
+        label: Number
+        type: text
+    type:
+        label: Type
+        type: text
+    order_id:
+        label: Order
+        type: number
+    customer_id:
+        label: Customer
+        type: number
+    status:
+        label: Status
+        type: text
+    format:
+        label: Format
+        type: text
+    date:
+        label: Date
+        type: text
+    result:
+        label: Result
+        type: text
+    error:
+        label: error
+        type: text
+    expiring_at:
+        label: 'Expiring At'
+        type: text

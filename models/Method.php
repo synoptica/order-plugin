@@ -26,4 +26,7 @@ class Method extends Model
      */
     public $table = 'orders_methods';
 
+    public $hasMany = [
+        'invoices' => 'Synoptica\Order\Models\Invoice',
+    ];
 }

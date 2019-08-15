@@ -18,6 +18,8 @@ class Plugin extends PluginBase
 
     public function register()
     {
+        $this->registerConsoleCommand('Synoptica.Order:Sync', 'Synoptica\Order\Console\Sync');
+        $this->registerConsoleCommand('Synoptica.Order:Invoicing', 'Synoptica\Order\Console\Invoicing');
     }
   
     public function boot(){
